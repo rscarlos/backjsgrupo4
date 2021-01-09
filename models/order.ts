@@ -77,6 +77,10 @@ export var orderSchema = new Schema({
         type: String,
         required: true
     }, 
+    user_ape:{
+        type: String,
+        required: true
+    }, 
     user_phone:{
         type: String,
         required: true
