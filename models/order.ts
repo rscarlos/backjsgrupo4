@@ -36,26 +36,6 @@ export var orderSchema = new Schema({
     address_reference:{
         type: String,
         required: true
-    }, 
-    card_ccv:{
-        type: String,
-        required: true
-    }, 
-    card_month:{
-        type: String,
-        required: true
-    }, 
-    card_name:{
-        type: String,
-        required: true
-    }, 
-    card_number:{
-        type: String,
-        required: true
-    }, 
-    card_year:{
-        type: String,
-        required: true
     },  
     orderDate:{
         type: String,
