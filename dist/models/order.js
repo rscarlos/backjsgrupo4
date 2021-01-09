@@ -37,26 +37,6 @@ exports.orderSchema = new mongoose_1.Schema({
         type: String,
         required: true
     },
-    card_ccv: {
-        type: String,
-        required: true
-    },
-    card_month: {
-        type: String,
-        required: true
-    },
-    card_name: {
-        type: String,
-        required: true
-    },
-    card_number: {
-        type: String,
-        required: true
-    },
-    card_year: {
-        type: String,
-        required: true
-    },
     orderDate: {
         type: String,
         required: true
@@ -74,6 +54,10 @@ exports.orderSchema = new mongoose_1.Schema({
         required: true
     },
     user_name: {
+        type: String,
+        required: true
+    },
+    user_ape: {
         type: String,
         required: true
     },
